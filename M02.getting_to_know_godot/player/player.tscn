@@ -33,16 +33,14 @@ script = ExtResource("7")
 use_controller = true
 
 [node name="WeaponAnchor" type="Marker2D" parent="WeaponHolder"]
-position = Vector2(66, 0)
+position = Vector2(60, -1)
 
 [node name="HandLeft" type="Sprite2D" parent="WeaponHolder/WeaponAnchor"]
 position = Vector2(2.39682, -25.0513)
-rotation = -0.247085
 texture = ExtResource("5")
 
 [node name="HandRight" type="Sprite2D" parent="WeaponHolder/WeaponAnchor"]
-position = Vector2(0.560448, 25.8126)
-rotation = 0.0754706
+position = Vector2(0.37005636, 25.798203)
 texture = ExtResource("5")
 flip_v = true
 
